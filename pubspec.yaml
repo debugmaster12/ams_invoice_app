@@ -1,0 +1,21 @@
+name: ams_invoice_app
+description: AMS Invoice Generator
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pdf: ^3.10.7
+  printing: ^5.11.0
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/stamp.png
+    - assets/signature.png
